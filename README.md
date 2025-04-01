@@ -5,7 +5,7 @@ EfficientNet, MobileNet, DeepFace 등 다양한 모델을 비교하며, 일정 �
 
 ---
 
-## ✨ 주요 기능
+## 주요 기능
 
 - 실시간 얼굴 감정 인식 (웹캠 기반)
 - 다양한 모델(EfficientNet, MobileNet, DeepFace) 지원
@@ -15,13 +15,13 @@ EfficientNet, MobileNet, DeepFace 등 다양한 모델을 비교하며, 일정 �
 
 ---
 
-## 😄 감정 클래스
+## 감정 클래스
 
 - Anger, Disgust, Fear, Happy, Sad, Surprise, Neutral
 
 ---
 
-## 🗂 파일 구성
+## 파일 구성
 
 | 파일명 | 설명 |
 |--------|------|
@@ -46,7 +46,7 @@ python realtime_emotion_mtcnn_mobilenet.py
 
 ---
 
-## 💾 모델 학습
+## 모델 학습
 
 [Kaggle FER2013 데이터](https://www.kaggle.com/datasets/msambare/fer2013)에서 `fer2013.csv`를 내려받아 프로젝트 루트에 두고 아래 스크립트 실행:
 
@@ -58,7 +58,7 @@ python train_emotion_efficientnet.py
 
 ---
 
-## 📦 라이브러리 설치
+## 라이브러리 설치
 
 ```bash
 pip install -r requirements.txt
